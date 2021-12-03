@@ -1,7 +1,7 @@
 # safefloat-workshop
 Enjoy !
 
-Before we start, we have to update terraform version. This workshop was tested on terraform version >0.13. So in order you avoid a refactor o unknown reasons, please upgrade terraform.
+Before we start, we have to update terraform version. This workshop was tested on terraform version >0.13. So in order to you avoid a refactor o unknown reasons, please upgrade terraform.
 ```bash
 curl -O https://releases.hashicorp.com/terraform/0.13.0/terraform_0.13.0_linux_amd64.zip
 unzip terraform_0.13.0_linux_amd64.zip
