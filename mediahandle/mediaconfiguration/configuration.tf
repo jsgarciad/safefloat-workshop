@@ -9,9 +9,10 @@ terraform {
 
 
 module "deploy_mediainfrastructure" {
-  source = "../mediainfrastructure"
+  source = "/home/scrapbook/tutorial/safefloat-workshop/mediahandle/mediainfrastructure"
 
-  environment    = "production"
-  container_name = "safefloatapp"
+  environment     = "production"
+  container_name  = "safefloatapp"
+  container_image = "nginx:latest"
 
 }
